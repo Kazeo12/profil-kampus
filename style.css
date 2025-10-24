@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "'Arial", sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: rgb(4, 132, 4); 
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a:hover {
+    color: rgb(79, 176, 5); /* Warna biru cerah untuk hover */
+}
+
+/* Background full screen */
+.background-section {
+    min-height: 100vh; /* gambar Full layar */
+    background-image: url('bg.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+    
+
+nav ul li a {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+/* Konten utama */
+.content {
+    background-color: rgba(255, 255, 255, 0.9) ; /* Semi-transparan untuk readability di atas background */
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.content p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* css sejarah */
+.background-sejarah {
+    min-height: 100vh; /* Full viewport height */
+    background-image: url("bg2.jpeg"); /* Ganti dengan URL gambar kampus Anda */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-top: 80px; /* Ruang untuk header fixed */
+    padding-bottom: 60px; /* Ruang untuk footer */
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparan untuk readability di atas background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.content p {
+    text-align: center;
+}
+
+/* css tentang */
+
+/* Faculty container */
+.faculty-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+}
+
+.fuad {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.background-Tentang {
+    min-height: 100vh; /* Full viewport height */
+    background-image: url("bgTentang.jpg"); /* Ganti dengan URL gambar kampus Anda */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-top: 80px; /* Ruang untuk header fixed */
+    padding-bottom: 60px; /* Ruang untuk footer */
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contentt {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparan untuk readability di atas background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+
+}
+
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.contentt h3 {
+    text-align: center;
+}
+
+.contentt h4 {
+    text-align: center;
+}
+
+/* kontak css */
+
+.background-kontak {
+    min-height: 100vh; /* gambar Full layar */
+    background-color: green;
+    background-image: url('bgprofil.png'); 
+    background-size: 42%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+iframe {
+    padding: 20px;
+    max-width: 500px;
+}
+
+.kontak2 {
+    display: grid;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.Kontak {
+    display: flex;
+    gap: 2px;
+    background-color:  rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.kontak1 {
+    align-self: center;
+}
+
+/* Responsif untuk mobile */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 150px;
+    }
+
+    .contentt {
+        margin-top: 180px;
+        padding: 40px;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+    }
+
+    nav ul li {
+        margin: 0 1rem;
+    }
+
+    .Kontak {
+        display: grid;
+        margin-top: 80px;
+    }
+
+    iframe {
+        max-width: 300px;
+        
+    }
+}
+
