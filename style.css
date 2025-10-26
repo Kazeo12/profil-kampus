@@ -43,21 +43,19 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 2rem;
+    margin-left: 0;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    list-style: none;
 }
 
 nav ul li a:hover {
-    color: rgb(79, 176, 5); /* Warna biru cerah untuk hover */
+    color: rgb(17, 17, 17); 
 }
 
-/* Background full screen */
 .background-section {
     min-height: 100vh; /* gambar Full layar */
     background-image: url('bg.png'); 
@@ -69,7 +67,6 @@ nav ul li a:hover {
     margin-top: 80px;
 }
     
-
 nav ul li a {
     list-style-type: disc;
     padding-left: 20px;
@@ -87,13 +84,13 @@ nav ul li a {
 }
 
 .content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 40px;
+    margin-bottom: 16px;
     color: #2c3e50;
 }
 
 .content p {
-    font-size: 1.2rem;
+    font-size: 19px;
 }
 
 /* Footer */
@@ -123,12 +120,11 @@ footer {
     padding: 30px;
     border-radius: 10px;
     max-width: 800px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 40px;
+    margin-bottom: 18px;
     color: #2c3e50;
     text-align: center;
 }
@@ -138,22 +134,12 @@ footer {
 }
 
 /* css tentang */
-
-/* Faculty container */
 .faculty-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+    gap: 22px;
+    margin-bottom: 36px;
     margin-top: 20px;
-}
-
-.fuad {
-    background-color: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
 }
 
 .background-Tentang {
@@ -174,14 +160,6 @@ footer {
     padding: 30px;
     border-radius: 10px;
     max-width: 800px;
-
-}
-
-
-.content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #2c3e50;
 }
 
 .contentt h3 {
@@ -193,7 +171,6 @@ footer {
 }
 
 /* kontak css */
-
 .background-kontak {
     min-height: 100vh; /* gambar Full layar */
     background-color: green;
