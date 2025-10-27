@@ -64,7 +64,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 70px;
 }
     
 nav ul li a {
@@ -112,7 +112,7 @@ footer {
     padding-top: 80px; /* Ruang untuk header fixed */
     padding-bottom: 60px; /* Ruang untuk footer */
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .content {
@@ -146,7 +146,6 @@ footer {
     min-height: 100vh; /* Full viewport height */
     background-image: url("bgTentang.jpg"); /* Ganti dengan URL gambar kampus Anda */
     background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     padding-top: 80px; /* Ruang untuk header fixed */
@@ -235,7 +234,7 @@ iframe {
 
     .Kontak {
         display: grid;
-        margin-top: 80px;
+        margin-top: 150px;
     }
 
     iframe {
